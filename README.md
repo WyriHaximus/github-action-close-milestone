@@ -1,1 +1,2 @@
-# github-action-close-milestone
+# github-action-create-milestone
+Create a new milestone
