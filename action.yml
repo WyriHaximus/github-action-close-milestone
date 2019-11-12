@@ -1,15 +1,12 @@
-name: 'Create Milestone'
-description: 'Create a new milestone with the given title and description'
+name: 'Close Milestone'
+description: 'Close the specified milestone'
 branding:
-  icon: 'tag'
-  color: 'orange'
-input:
-  title:
-    description: 'The title (version) for the milestone'
+  icon: 'stop-circle'
+  color: 'green'
+inputs:
+  number:
+    description: 'The milestone number as seen in the HTML URL'
     required: true
-  description:
-    description: 'An optional description for the milestone'
-    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
